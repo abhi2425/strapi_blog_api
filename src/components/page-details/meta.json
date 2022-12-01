@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_details_metas",
+  "info": {
+    "displayName": "meta",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "string",
+      "required": true
+    },
+    "pageDescription": {
+      "type": "richtext"
+    },
+    "endPoint": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

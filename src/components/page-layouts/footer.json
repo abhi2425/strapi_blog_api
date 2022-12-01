@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_layouts_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "footerLinks": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_details_trusted_brands",
+  "info": {
+    "displayName": "Brands",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brandLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-details.brand-logos"
+    },
+    "sectionHeading": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_layouts_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "navbarLinks": {
+      "type": "json"
+    }
+  }
+}

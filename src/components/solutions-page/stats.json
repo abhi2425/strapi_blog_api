@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_solutions_page_stats",
+  "info": {
+    "displayName": "Stats",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "statsValue": {
+      "type": "string"
+    },
+    "tagLine": {
+      "type": "string"
+    }
+  }
+}

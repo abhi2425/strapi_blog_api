@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_solutions_page_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "clipboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "heroDescription": {
+      "type": "richtext"
+    },
+    "heroImgUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "g2ReviewsImgUrl": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

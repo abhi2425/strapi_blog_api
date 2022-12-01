@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solutions",
+  "info": {
+    "singularName": "solution",
+    "pluralName": "solutions",
+    "displayName": "solution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-details.meta"
+    },
+    "trustedBrands": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-details.trusted-brands"
+    },
+    "integrationLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-details.brand-logos"
+    },
+    "statsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions-page.stats"
+    },
+    "heroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "solutions-page.hero"
+    },
+    "pageName": {
+      "type": "string"
+    }
+  }
+}

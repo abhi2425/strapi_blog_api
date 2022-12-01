@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solution_jsons",
+  "info": {
+    "singularName": "solution-json",
+    "pluralName": "solution-jsons",
+    "displayName": "solution_Json",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageProps": {
+      "type": "json"
+    }
+  }
+}
