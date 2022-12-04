@@ -27,11 +27,6 @@
       "repeatable": true,
       "component": "page-details.brand-logos"
     },
-    "statsSection": {
-      "type": "component",
-      "repeatable": false,
-      "component": "solutions-page.stats"
-    },
     "heroSection": {
       "type": "component",
       "repeatable": false,
@@ -39,6 +34,11 @@
     },
     "pageName": {
       "type": "string"
+    },
+    "statsSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "solutions-page.stats"
     }
   }
 }
