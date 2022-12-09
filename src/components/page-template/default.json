@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_template_defaults",
+  "info": {
+    "displayName": "default",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-details.meta"
+    },
+    "navbar": {
+      "type": "json"
+    },
+    "main": {
+      "type": "json"
+    },
+    "footer": {
+      "type": "json"
+    }
+  }
+}

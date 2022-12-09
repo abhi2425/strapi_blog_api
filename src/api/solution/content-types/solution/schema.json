@@ -39,6 +39,29 @@
       "type": "component",
       "repeatable": true,
       "component": "solutions-page.stats"
+    },
+    "uploadTest": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "brand": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-details.trusted-brands"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "pageName"
+    },
+    "Test": {
+      "type": "text"
     }
   }
 }

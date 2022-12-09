@@ -10,10 +10,10 @@
     "heading": {
       "type": "text"
     },
-    "heroDescription": {
+    "description": {
       "type": "richtext"
     },
-    "heroImgUrl": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -24,15 +24,16 @@
         "audios"
       ]
     },
-    "g2ReviewsImgUrl": {
+    "g2ReviewsImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

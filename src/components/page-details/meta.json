@@ -7,16 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "pageTitle": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "pageDescription": {
+    "description": {
       "type": "richtext"
-    },
-    "endPoint": {
-      "type": "string",
-      "required": true
     }
   }
 }

@@ -12,27 +12,22 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "pageProps": {
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-details.meta"
+    },
+    "navbar": {
       "type": "json"
     },
-    "testUpload": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "main": {
+      "type": "json"
+    },
+    "footer": {
+      "type": "json"
     },
     "pageName": {
       "type": "string"
-    },
-    "stats": {
-      "type": "component",
-      "repeatable": true,
-      "component": "solutions-page.stats"
     }
   }
 }
